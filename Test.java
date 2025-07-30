@@ -7,7 +7,7 @@ How Java Code Gets Executed
 - compiled language -> conversts files to bytecode files
 - 
  */
-// ending timestamp: 37:47
+
 import java.util.Date;
 
 class Test {
@@ -19,8 +19,8 @@ class Test {
 
         byte age = 30; // primitive type
         Date now = new Date();  // reference type, allocate memory
-        now.getTime()
+        System.out.println(now);
 
-        System.out.println("HELLO WORLD JAVA " + viewsCount + " Price: " + price);
+        // System.out.println("HELLO WORLD JAVA " + viewsCount + " Price: " + price);
     }
 }
